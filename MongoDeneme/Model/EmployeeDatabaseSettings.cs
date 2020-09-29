@@ -1,6 +1,6 @@
 ﻿namespace MongoDeneme.Model
 {
-    public class EmployeeDatabaseSettings
+    public class EmployeeDatabaseSettings:IEmployeeDatabaseSettings
     {
         public string EmployeesCollectionName { get; set; }
         public string ConnectionString { get; set; }
